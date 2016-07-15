@@ -1,0 +1,85 @@
+
+body {
+	color: white;
+	font-family: 'Shadows Into Light', cursive;
+}
+
+
+h1{
+
+}
+
+img{
+	max-width: 100%;
+}
+
+.btn-info {
+    color: #fff;
+    background-color: #D9BBF9;
+    border-color: #D9BBF9;
+}
+
+.main {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    color: #f8f8f8;
+    background: url("../img/WOC-books.jpg") no-repeat center center;
+    background-size: cover;
+    text-shadow: 4px 4px 2px rgba(150, 150, 150, 1);
+}
+
+.edu {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    color: #f8f8f8;
+    background: url("../img/WOC-bw-window.jpg") no-repeat center center;
+    background-size: cover;
+}
+
+.work {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    color: #f8f8f8;
+    background: url("../img/WOC-hands.jpg") no-repeat center center;
+    background-size: cover;
+}
+
+.skill {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    color: #f8f8f8;
+    background: url("../img/WOC-sit.jpg") no-repeat center center;
+    background-size: cover;
+}
+
+.row {
+	margin: 10px;
+	padding: 10px;
+	color: #4E5283;
+}
+
+footer {
+	font-size: 20px;
+	background-color: black;
+	margin-bottom: 0;
+}
+
+i {
+	color: white;
+	text-align: center;
+	padding: 2px 5px 2px 5px;	
+	margin: 0px;
+   font-size: 20px;
+   display: inline;
+}
+
+h5 {
+	float: right;
+	margin: 0px;
+	padding: 2px 5px 2px 5px;
+	background-color: #4E5283;	
+}
