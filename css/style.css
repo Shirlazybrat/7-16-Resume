@@ -26,7 +26,8 @@ img{
     color: #f8f8f8;
     background: url("../img/WOC-books.jpg") no-repeat center center;
     background-size: cover;
-    text-shadow: 4px 4px 2px rgba(150, 150, 150, 1);
+    text-shadow: 6px 6px 3px rgba(150, 150, 150, 1);
+    height: 500px;
 }
 
 .edu {
@@ -36,6 +37,7 @@ img{
     color: #f8f8f8;
     background: url("../img/WOC-bw-window.jpg") no-repeat center center;
     background-size: cover;
+    height: 500px;
 }
 
 .work {
@@ -45,6 +47,7 @@ img{
     color: #f8f8f8;
     background: url("../img/WOC-hands.jpg") no-repeat center center;
     background-size: cover;
+    height: 500px;
 }
 
 .skill {
@@ -54,11 +57,12 @@ img{
     color: #f8f8f8;
     background: url("../img/WOC-sit.jpg") no-repeat center center;
     background-size: cover;
+    height: 500px;
 }
 
 .row {
-	margin: 10px;
-	padding: 10px;
+	margin: 20px;
+	padding: 20px;
 	color: #4E5283;
 }
 
