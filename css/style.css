@@ -2,6 +2,7 @@
 body {
 	color: white;
 	font-family: 'Shadows Into Light', cursive;
+    position:relative;
 }
 
 
@@ -87,3 +88,11 @@ h5 {
 	padding: 2px 5px 2px 5px;
 	background-color: #4E5283;	
 }
+
+.grid-item {
+    width: 25%; 
+}
+
+.grid-item--width2 {
+     width: 50%;
+ }
