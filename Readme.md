@@ -1,3 +1,3 @@
 #Portfolio coming soon...
 
-##I am a Full-Stack Deeloper with an emphasis in JavaScript
+##I am a Full-Stack Developer with an emphasis in JavaScript
