@@ -1,0 +1,197 @@
+body {
+	margin: 0;
+	padding-left: 0;
+}
+
+ul.nav {
+	padding: 20px;
+	background: #632B5F;
+	margin: 0px;
+}
+
+.navbar {
+	font-size: 30px;
+	color: #4EB9B0;
+	font-family: 'Dancing Script', cursive;
+  	-webkit-font-family: 'Dancing Script', cursive;
+  	font-weight: 20px;
+  	background-color: #632B5F;
+  	margin: 0px;
+  	padding: 0px;
+  	text-align: center;
+} 
+
+li {
+	display: inline;
+	text-decoration: none;
+	padding: 5px 15px 5px 15px;
+}
+
+header {
+	font-size: 25px;
+	background-image: url("../img/china-bkg.jpg");
+	height: 500px;
+	background-size: cover;
+	background-position: center;
+	color: #4EB9B0;
+	text-align: center;
+	padding-bottom: 0px;
+	margin: 0px;
+}
+
+h1 {
+	color: #4EB9B0;
+	font-family: 'Dancing Script', cursive;
+  	-webkit-font-family: 'Dancing Script', cursive;
+  	font-size: 5em;
+  	margin: 0px 30px 10px 30px;
+}
+
+h2 {
+	margin-top: 0px;
+}
+
+button {
+	background-color: #4EB9B0;
+  	color: #632B5D;
+  	font-family: 'Dancing Script', cursive;
+  	-webkit-font-family: 'Dancing Script', cursive;
+  	font-weight: 300;
+  	font-size: .7em;
+  	letter-spacing: 1.3px;
+  	padding: 10px 10px;
+  	text-decoration: none;
+  	margin-top: 150px
+}
+
+p {
+	font-family: fantasy;
+	font-size: 1.3em;
+}
+
+h3 {
+	font-family: 'Dancing Script', cursive;
+  	-webkit-font-family: 'Dancing Script', cursive;
+  	text-align: center;
+  	font-size: 2em;
+}
+
+.col h3, .col p {
+	background-color: rgba(239, 232, 232, 0.6);
+	margin: 0px;
+}
+
+div {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+a {
+	text-decoration: none;
+	color: #4EB9B0;
+}
+
+a:hover {
+text-decoration: none;
+font-family: fantasy;
+color: black;
+}
+
+.supporting {
+	font-family: 'Dancing Script', cursive;
+  	-webkit-font-family: 'Dancing Script', cursive;
+  	text-align: center;
+  	color: #632B5D;
+  	margin-top: 2px;
+  	margin-bottom: 20px;
+}
+
+.supporting img {
+	  margin: 10px 0px 0px 0px;
+      border: 7px solid #4EB9B0;
+      border-radius: 20px;
+      height: 300px;
+
+}
+
+.label {
+	font-family: 'Dancing Script', cursive;
+  	-webkit-font-family: 'Dancing Script', cursive;
+  	text-align: center;
+  	font-size: 2em;
+  	margin-bottom: 2px;
+}
+
+.home {
+	text-align: block;
+	margin: 20px 40px 20px 40px;
+	border-bottom: 2px dotted #4EB9B0;
+}
+
+.supporting li {
+	margin: 5px;
+	text-align: center;
+	display: block;
+	border-bottom: 2px dotted #4EB9B0
+}
+
+.col {
+	float: left;
+  	width: 30%;
+  	font-family: fantasy;
+  	color: #632B5D;
+  	text-align: center;
+  	margin: 10px;
+  	height: 350px; 
+  	background-size: cover;
+	background-position: center;
+}
+
+.col li {
+	margin-bottom: 20px;
+	height: 10px;
+}
+
+.blog {
+	background-image: url("../img/forbidCity.jpg");
+}
+
+.portfolio {
+	background-image: url("../img/EifelUp.jpg");
+}
+
+.resume {
+	background-image: url("../img/thaiWaterRocks.jpg");
+}
+
+.clearfix {
+	clear: both;
+}
+
+.test img {
+	margin: 10px;
+  	height: 350px; 
+	background-position: center;
+	border:2px solid #4EB9B0 ;
+}
+
+footer {
+	font-size: 30px;
+	background-color: #632B5F;
+	margin-bottom: 0;
+}
+
+footer ul {
+	margin: 0px;
+}
+
+i {
+	color: #4EB9B0;
+	text-align: right;
+	padding: 2px 5px 2px 5px;	
+	margin: 0px;
+}
+
+
+
+
