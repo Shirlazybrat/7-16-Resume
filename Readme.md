@@ -8,7 +8,7 @@
 
 ###This is my personal portfolio created to showcase my projects, share my contact information and give each visitor insight into who I am and what I do. 
 
-Visit here to play: [Portfolio](http://shirletterly.com/)
+Visit here: [Portfolio](http://shirletterly.com/)
 
 ##Built with:
 	- Html
@@ -51,8 +51,10 @@ Visit here to play: [Portfolio](http://shirletterly.com/)
 ```
 
 
-####Early stages site
+####Early stages of site
 ![Alt text](img/ScreenShot1.png "Early stages of site")
+
+<!-- add a video of interaction with the site -->
 
 ##Future Add-ons
 - Links to more current projects.
@@ -60,5 +62,5 @@ Visit here to play: [Portfolio](http://shirletterly.com/)
 - An enhanced UX/UI design that encourages more visitors.
 
 
-###Please visit my personal profile to see mpore current projects.
+###Please visit my personal profile to see more current projects.
 - [Shirlette Chambers](https://github.com/Shirlazybrat)
