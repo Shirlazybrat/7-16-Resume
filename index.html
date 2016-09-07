@@ -1,67 +1,126 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Shirlette Chambers</title>
-  
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-  <link href='https://fonts.googleapis.com/css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>
-  
+	<title>Shirlette Chambers</title>
 
-  <!-- <link rel="stylesheet" href="styles/style-intro.css">
- -->
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
- <style>
+<!-- jQuery CDN -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 
- body {
-  font-family: 'Shadows Into Light', cursive;
-  color: #D9BBF9;
-  font-size: 10em;
-  text-align: center;
-  text-shadow: 6px 6px 3px rgba(120, 113, 170, 1);
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<!-- Isotope minified CDN -->
+<script src="https://npmcdn.com/isotope-layout@3.0/dist/isotope.pkgd.min.js"></script>
+
+<script src="js/script.js" type="text/javascript"></script>
+
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+
+	<link href='https://fonts.googleapis.com/css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>
+
+
+<style>
+	body {
+	color: white;
+	font-family: 'Shadows Into Light', cursive;
+    position:relative;
+    background-color: #D9BBF9;
+	}
+
+	img{
+	max-width: 100%;
+	}
+
+  /* .logo{
+    max-width: 300px;
+    float: left;
+  } */
+
+	.btn-info {
+    color: #fff;
+    background-color: #D9BBF9;
+    border-color: #D9BBF9;
+	}
+	
+	.main {
+    padding-top: 50px;
+    padding-bottom: 0px;
+    text-align: center;
+    color: #f8f8f8;
+    background: url("img/WOC-books.jpg") no-repeat center center;
+    background-size: cover;
+    text-shadow: 6px 6px 3px rgba(120, 113, 170, 1);
+    height: 1000px;
+	}
+
+	@media screen and (min-width: 768px){
+	.jumbotron .h1, .jumbotron h1 {
+    font-size: 110px;
+	}
 }
 
-  video#bgvid { 
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    z-index: -100;
-    -ms-transform: translateX(-50%) translateY(-50%);
-    -moz-transform: translateX(-50%) translateY(-50%);
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
-    background: url(../img/Cheer-Up/Snapshots/Cheer-Up.jpg) no-repeat;
-    background-size: cover; 
-  }
+	.jumbotron p {
+    margin-bottom: 15px;
+    font-size: 50px;
+    font-weight: 200;
+}
+
+.page-header{
+  margin: 200px;
+  text-align: center;
+}
+
+
 
 </style>
 
 </head>
-<body>
 
-<main class="cd-main-content">
-<!-- ////////Please come back later///////////////////////////// -->
-  
-    <video playsinline autoplay muted loop poster="img/Cheer-Up/Snapshots/Cheer-Up.jpg" id="bgvid">
-        <source src="img/Broadway/MP4/Broadway.mp4" type="video/mp4" />Your browser does not support the video tag. I suggest you upgrade your browser.
-            <source src="img/Broadway/WEBM/Broadway.webm" type="video/webm" />Your browser does not support the video tag. I suggest you upgrade your browser.
-    </video>
-    <div class="poster hidden">
-            <img src="img/Broadway/Snapshots/Broadway.jpg" alt="">
-        </div>
+<!-- ////////////////////////////////////////////////////// -->
 
-    <div class="container page-header text-center">
-        
-      <p>Work in progress...</p>
-      <h1>Please visit later</h1>
-      <h2>shirletterly.com</h2>
-  </div>
-</main>
+<body data-spy="scroll" data-target="#navbar-example">
+
+<nav class="navbar navbar-default navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Shirletterly</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav" role="tablist">
+        <li><a href="#">Education <span class="sr-only">(current)</span></a></li>
+        <li class=""><a href="#">Work History <span class="sr-only">(current)</span></a></li>
+        <li class=""><a href="#">Skills <span class="sr-only">(current)</span></a></li>
+      </ul>
+      
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+
+
+<div class="jumbotron main">
+	<div class="container page-header">
+  		<h1>Shirlette Chambers</h1>
+      <img class="logo" src="img/personal-logo2.png">
+  		<p>Web Developer</p>
+  		<p><a class="btn btn-info btn-lg" href="projects.html" role="button">Enter</a></p>
+	</div>
+</div>
+
 
 
 </body>
