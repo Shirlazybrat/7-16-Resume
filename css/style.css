@@ -28,43 +28,63 @@ img{
     background: url("../img/WOC-books.jpg") no-repeat center center;
     background-size: cover;
     text-shadow: 6px 6px 3px rgba(120, 113, 170, 1);
-    height: 500px;
+    height: 1000px;
 }
 
-.edu {
+.about {
     padding-top: 50px;
     padding-bottom: 50px;
     text-align: center;
     color: #f8f8f8;
-    background: url("../img/WOC-bw-window.jpg") no-repeat center center;
+    background: url("../img/WOC-two.jpg") no-repeat center center;
     background-size: cover;
-    height: 500px;
+    height: 300px;
 }
 
-.work {
+.skills {
     padding-top: 50px;
     padding-bottom: 50px;
     text-align: center;
     color: #f8f8f8;
-    background: url("../img/WOC-hands.jpg") no-repeat center center;
+    background: url("../img/blackServers.jpg") no-repeat center center;
     background-size: cover;
-    height: 500px;
+    height: 300px;
 }
 
-.skill {
+.projects {
     padding-top: 50px;
     padding-bottom: 50px;
     text-align: center;
     color: #f8f8f8;
     background: url("../img/WOC-sit.jpg") no-repeat center center;
     background-size: cover;
-    height: 500px;
+    height: 300px;
 }
+
+.contact {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    color: #f8f8f8;
+    background: url("../img/WOC-sit.jpg") no-repeat center center;
+    background-size: cover;
+    height: 300px;
+}
+
+
 
 .row {
 	margin: 20px;
 	padding: 20px;
 	color: #4E5283;
+}
+
+label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: 700;
+    color: #4E5283;
 }
 
 footer {

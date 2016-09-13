@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+
 	<title>Shirlette Chambers</title>
 
 <!-- Latest compiled and minified CSS -->
@@ -12,6 +13,10 @@
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
+<!-- Scrolling Nav JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/scrolling-nav.js"></script>
+
 <!-- Isotope minified CDN -->
 <script src="https://npmcdn.com/isotope-layout@3.0/dist/isotope.pkgd.min.js"></script>
 
@@ -19,135 +24,153 @@
 
 
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-
+	<!-- Scroll CSS -->
+    <link href="css/scrolling-nav.css" rel="stylesheet">
 	
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 
 	<link href='https://fonts.googleapis.com/css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>
 
 </head>
+<!-- ///////////////////////////////////////////////////// -->
 
-<body data-spy="scroll" data-target="#navbar-example">
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 
-<nav class="navbar navbar-default navbar-inverse navbar-fixed-top">
+<nav class="navbar navbar-default navbar-inverse navbar-fixed-top" role="navigation">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+    <div class="navbar-header page-scroll">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-ex1-collapse" aria-expanded="false">
         <span class="sr-only">Toggle navigation</span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="index.html">Shirletterly</a>
+      <a class="navbar-brand page-scroll" href="#page-top">Shirletterly</a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+    <div class="collapse navbar-collapse navbar-ex1-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav" role="tablist">
-        <li class="active"><a href="#">Education <span class="sr-only">(current)</span></a></li>
-        <li class=""><a href="#">Work History <span class="sr-only">(current)</span></a></li>
-        <li class=""><a href="#">Skills <span class="sr-only">(current)</span></a></li>
+      	<li class="hidden">
+            <a class="page-scroll" href="#page-top"></a>
+          </li>
+        <li>
+        <a class="page-scroll" href="#about">About <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="">
+        <a class="page-scroll" href="#skills">Skills <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="">
+        <a class="page-scroll" href="#projects">Projects <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="">
+        <a class="page-scroll" href="#contact">Contact <span class="sr-only">(current)</span></a>
+        </li>
       </ul>
       
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
 
-
+<!-- ////////////////////Header///////////////////////////////// -->
 
 <div class="jumbotron main">
 	<div class="container page-header">
   		<h1>Shirlette Chambers</h1>
   		<p>Web Developer</p>
   		<!-- <p><a class="btn btn-info btn-lg" href="#" role="button">Enter</a></p> -->
+  		<a class="btn btn-info page-scroll" href="#about">Click Me to Scroll Down!</a>
 	</div>
 </div>
 
+<!-- //////////////////////About/////////////////////////////// -->
 
-
-<div class="jumbotron edu">
+<div class="jumbotron about">
 	<div class="container page-header">
-  		<h2>Education</h2>
+  		<h2>About</h2>
 	</div>
 </div>
-	<div class="grid"> <!-- Isoptope -->
-  		<div class="grid-item">College</div>
-  		<div class="grid-item grid-item--width2">Masters</div>
-  		<div class="grid-item">DigitalCrafts</div>
- 		 <!-- ... -->
-	</div>
+<!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1>About Section</h1>
+                </div>
+            </div>
+        </div>
+    </section>
 
-	<div class="row">
-		<div class="col-md-4">
-		<h3>college</h3>
-		</div>
-		<div class="col-md-4">
-		<h3>masters</h3>
-		</div>
-		<div class="col-md-4">
-		<h3>DC</h3>
-		</div>
-	</div>
+	
 
+<!-- //////////////////////Skills/////////////////////////////// -->
 
-<div class="jumbotron work">
-	<div class="container page-header">
-  		<h2>Career History and Accomplishments</h2>
-	</div>
-</div>
-	<div class="row">
-		<div class="col-md-3">
-		<h3>DigitalCrafts Immersive Coding School <br><small>Web Developer in-training</small></h3>
-		<p>Completed 16-week Immersive Program of full-stack software engineer training with main focus on the MEAN stack, as well as instruction in Python</p>
-		<p>Implemented core skills to create dynamic web applications with the use of Javascript as well as Javascript frameworks (jQuery & Angular.js)</p>
-		<p>Learned best practices of front and back end technologies from highly skilled professionals with 10+ years of development experience</p> 
-		<p>Enhanced personal growth as a developer by completing coding challenges while interacting with the local and online developer community</p>
-		</div>
-		<div class="col-md-3">
-		<h3>Abu Dhabi Education Council- Al Foaa Cycle 2 school <br><small>English Medium Teacher-Math</small></h3>
-		<p>Implemented pedagogy and assessment practices to ensure a cohesive education system that prepares students to be bi-literate participants in the 21st century.</p>
-		<p>Incorporated fundamental aspects that include student-centered approaches, gradual release, 21st century skills, inquiry-based learning, and Assessment for Learning.</p>
-		<p>Supported the Abu Dhabi education reform, making it a priority to keep developing my own math instruction skills while developing 6th grade students into independent, well-educated and morally conscious citizens of the world.</p>
-		</div>
-		<div class="col-md-3">
-		<h3>Hopewell Christian Academy (HCA) <small>Lead Mathematics & Spanish Instructor</small></h3>
-		<p>Taught mathematics for grades 5-12 by providing differentiated lessons to students of various learning abilities and incorporated technology into each lesson</p> 
-		<p>Assigned role of Math Coach for elementary teachers (k4-5) for the successful implementation of the Common Core Standards</p>
-		<p>Provided free math tutorials after school for two to three hours a week to all students in need of extra assistance and more practice with various math concepts</p>
-		</div>
-		<div class="col-md-3">
-		<h3>AmeriCorps Hands On Atlanta <small>Service Leader</small></h3>
-		<p>Served 1710 hours, in 10 months in instructional mathematics support in an APS middle school and partnered with various local non-profit organizations</p>
-		<p>Provided instruction to twenty-four students per 6th, 7th and 8th grade by implementing the America’s Choice Program to move students out of the academic “bubble”</p>
-		<p>Mentored a 7th grade girl of the school to encourage education and personal values during the school year</p>	
-		<h2>2009-2010</h2>
-
-		</div>
-	</div>
-
-<div class="jumbotron skill">
+<div class="jumbotron skills">
 	<div class="container page-header">
   		<h2>Skills</h2>
 	</div>
 </div>
-	<div class="row">
-		<div class="col-md-4">
-			<h3>Programming Languages</h3>
-			<p>HTML</p>
-			<p>CSS</p>
-			<p>JavaScript</p>
-		</div>
-		<div class="col-md-4">
-			<h3><a href="projects.html">Portfolio</h3>
-			<h4><a href="http://shirletterly.com/hacker-snackers/#/">Hacker Snacker Front-End-Project</a></h4>
-		</div>
-		<div class="col-md-4">
+<!-- Skills Section -->
+    <section id="skills" class="skills-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1>Skills Section</h1>
+                </div>
+            </div>
+        </div>
+    </section>
 
-			<!-- Button trigger modal -->
-			<button type="button" class="btn btn-info btn-lg" 	data-toggle="modal" data-target="#myModal">
-	  		Contact Me
-			</button>
+	<!-- /////////////////////Projects//////////////////////////////// -->
+
+<div class="jumbotron projects">
+	<div class="container page-header">
+  		<h2>Projects</h2>
+	</div>
+</div>
+<!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1>Projects Section</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+	<!-- ////////////////////Video banner/////////////////////////// -->
+
+	<div class="homepage-hero-module">
+    <div class="video-container">
+        <div class="filter"></div>
+        <video autoplay loop class="fillWidth">
+            <source src="img/Broadway/MP4/Broadway.mp4" type="video/mp4" />Your browser does not support the video tag. I suggest you upgrade your browser.
+            <source src="img/Broadway/WEBM/Broadway.webm" type="video/webm" />Your browser does not support the video tag. I suggest you upgrade your browser.
+        </video>
+        <div class="container page-header">
+  				<h2>Contact</h2>
+				</div>
+        <div class="poster hidden">
+            <img src="img/Broadway/Snapshots/Broadway.jpg" alt="">
+        </div>
+
+        <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1>Contact Section</h1>
+                    <!-- Button trigger modal -->
+										<button type="button" class="btn btn-info btn-lg" 	data-toggle="modal" data-target="#myModal">
+								  		Contact Me
+										</button>
+                </div>
+            </div>
+        </div>
+    </section>
 
 	<!-- Modal -->
 	<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
@@ -178,23 +201,10 @@
 	  </div>
 	</div>
 
-		</div>
-	</div>
-
-	<div class="homepage-hero-module">
-    <div class="video-container">
-        <div class="filter"></div>
-        <video autoplay loop class="fillWidth">
-            <source src="img/Broadway/MP4/Broadway.mp4" type="video/mp4" />Your browser does not support the video tag. I suggest you upgrade your browser.
-            <source src="img/Broadway/WEBM/Broadway.webm" type="video/webm" />Your browser does not support the video tag. I suggest you upgrade your browser.
-        </video>
-        <div class="poster hidden">
-            <img src="img/Broadway/Snapshots/Broadway.jpg" alt="">
-        </div>
     </div>
 </div>
 	
-
+<!-- //////////////////footer/////////////////////////////////// -->
 
 <footer>
 	<div class="container-fluid footer footer-one">
@@ -231,6 +241,8 @@
 		</div>
 	</div>
 </footer>
+
+<!-- ///////////////////////////////////////////////////// -->
 
 </body>
 </html>
