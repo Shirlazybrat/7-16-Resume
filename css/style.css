@@ -1,13 +1,15 @@
 
 body {
-	color: white;
-	font-family: 'Shadows Into Light', cursive;
+    color: white;
+    font-family: 'Shadows Into Light', cursive;
     position:relative;
+    background-color: #D9BBF9;
 }
 
 
-h1{
-
+h2.banner{
+    font-size: 7em;
+    margin:  -150px;
 }
 
 img{
@@ -22,13 +24,30 @@ img{
 
 .main {
     padding-top: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 0px;
     text-align: center;
     color: #f8f8f8;
     background: url("../img/WOC-books.jpg") no-repeat center center;
     background-size: cover;
     text-shadow: 6px 6px 3px rgba(120, 113, 170, 1);
     height: 1000px;
+    }
+
+@media screen and (min-width: 768px){
+    .jumbotron .h1, .jumbotron h1 {
+    font-size: 110px;
+    }
+}
+
+.jumbotron p {
+    margin-bottom: 15px;
+    font-size: 50px;
+    font-weight: 200;
+}
+
+.page-header{
+  margin: 200px;
+  text-align: center;
 }
 
 .about {
@@ -72,7 +91,6 @@ img{
 }
 
 
-
 .row {
 	margin: 20px;
 	padding: 20px;
@@ -85,6 +103,13 @@ label {
     margin-bottom: 5px;
     font-weight: 700;
     color: #4E5283;
+}
+
+img.dev {
+    height: 120px;
+    width:  120px;
+    margin: 10px;
+    float: left;
 }
 
 footer {
