@@ -6,6 +6,9 @@ body {
     background-color: #D9BBF9;
 }
 
+div.container {
+    width:  1600px;
+}
 
 h2.banner{
     font-size: 7em;
@@ -110,6 +113,11 @@ img.dev {
     width:  120px;
     margin: 10px;
     float: left;
+}
+
+div.email {
+    padding: 2px;
+    margin:  5px;
 }
 
 footer {
