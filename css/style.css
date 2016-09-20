@@ -6,6 +6,11 @@ body {
     background-color: #D9BBF9;
 }
 
+nav.navbar, a.navbar-brand {
+    font-size: 25px;
+    padding-right: 80px;
+}
+
 div.container {
     width:  1600px;
 }
@@ -36,6 +41,7 @@ img{
     height: 1000px;
     }
 
+
 @media screen and (min-width: 768px){
     .jumbotron .h1, .jumbotron h1 {
     font-size: 110px;
@@ -49,7 +55,7 @@ img{
 }
 
 .page-header{
-  margin: 200px;
+  margin-top: 200px;
   text-align: center;
 }
 
@@ -93,17 +99,41 @@ img{
     height: 300px;
 }
 
+
+
 .about-section img{
-    max-width: 250px;
-    margin: 5px;
+    max-width: 230px;
+    margin-top: 40px;
     padding: 0px;
+    transform: rotate(9deg);
+}
+
+.about-section h3 {
+font-family: 'Josefin Slab', serif;
+}
+
+.skills-section h3{
+    font-family: 'Josefin Slab', serif;
 }
 
 .projects-section img {
-    width: 450px;
+    width: 475px;
     height: 300px;
     padding: 0px;
     margin: 0px;
+}
+
+.projects-section .label{
+    font-size: 15px;
+}
+
+.contact-section .container{
+    background:rgba(170, 159, 177, 0.40);
+    width: 100%;
+}
+
+.contact-section div{
+    color:  #fff;
 }
 
 .thumbnail {
@@ -115,7 +145,7 @@ img{
     position:absolute;
     top:0;
     right:0;
-    background:rgba(204, 167, 162, 0.75);
+    background:rgba(120, 113, 170, 0.75);
     width:100%;
     height:100%;
     padding:2%;
@@ -123,6 +153,11 @@ img{
     text-align:center;
     color:#fff !important;
     z-index:2;
+}
+
+.caption p{
+    font-size: 20px;
+    font-family: 'Josefin Slab', serif;
 }
 
 .row {
@@ -165,6 +200,7 @@ i.fa {
    font-size: 50px;
    display: inline;
 }
+
 
 h5 {
 	float: right;
