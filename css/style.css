@@ -37,10 +37,14 @@ img{
     color: #f8f8f8;
     background: url("../img/WOC-books.jpg") no-repeat center center;
     background-size: cover;
-    text-shadow: 6px 6px 3px rgba(120, 113, 170, 1);
+    text-shadow: 4px 4px 4px rgba(78, 82, 131, 1);
     height: 1000px;
+    font-size: 3em;
     }
 
+.main h3{
+    font-size: 70px;
+}
 
 @media screen and (min-width: 768px){
     .jumbotron .h1, .jumbotron h1 {
@@ -50,7 +54,7 @@ img{
 
 .jumbotron p {
     margin-bottom: 15px;
-    font-size: 50px;
+    font-size: 65px;
     font-weight: 200;
 }
 

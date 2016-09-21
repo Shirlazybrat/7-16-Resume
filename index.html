@@ -80,12 +80,13 @@
 
 <div class="jumbotron main">
   <div class="container page-header">
+      <h3>Hi! I am</h3>
       <h1>Shirlette Chambers</h1>
-      <p>Web Developer</p>
+      <p>Full-Stack Web Developer</p>
       <img class="logo" src="img/Personal-logo2.png">
       <br>
       <!-- <p><a class="btn btn-info btn-lg" href="#" role="button">Enter</a></p> -->
-      <a class="btn btn-info page-scroll" href="#about">Welcome!</a>
+      <a class="btn btn-info btn-lg page-scroll" href="#about">Welcome!</a>
   </div>
 </div>
 
@@ -336,11 +337,17 @@
               <textarea name="body" class="form-control" id="message-text" placeholder="Enter Your Message here"></textarea>
             </div>
             <div class="text-center"><a href="#">Direct email: shirlette.chambers@gmail.com></a></div>
-            <button type="submit" class="btn btn-default btn-info"><href src="#">Submit</button>
+            <button type="submit" class="btn btn-default btn-info send-success"><href src="#">Submit</button>
+            <div class="span4">
+            <div class="alert alert-default fade">
+              <button type="button" class="close" data-dismiss="alert">×</button>
+              <strong>Success!</strong> You message was sent..
+            </div>
+          </div>
         </form>
         </div>
         <div class="modal-footer">
-          <button type="button" class="btn btn-default btn-info" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-default btn-info " data-dismiss="modal">Close</button>
         </div>
       </div>
     </div>
@@ -404,7 +411,13 @@ $("[rel='tooltip']").tooltip();
         function(){
             $(this).find('.caption').slideUp(250); //.fadeOut(205)
         }
-    ); 
+    );
+
+$(".send-success").on("click", function() {
+    $(".alert").removeClass("in").show();
+  $(".alert").delay(200).addClass("in").fadeOut(2000);
+});
+
 </script>
 
 </body>
