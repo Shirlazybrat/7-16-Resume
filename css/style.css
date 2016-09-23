@@ -2,8 +2,12 @@
 body {
     color: white;
     font-family: 'Shadows Into Light', cursive;
-    position:relative;
     background-color: #D9BBF9;
+}
+
+.jumbotron{
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 nav.navbar, a.navbar-brand {
@@ -11,13 +15,11 @@ nav.navbar, a.navbar-brand {
     padding-right: 80px;
 }
 
-div.container {
-    width:  1600px;
-}
 
 h2.banner{
     font-size: 7em;
     margin:  -150px;
+    overflow: hidden;
 }
 
 img{
@@ -44,12 +46,6 @@ img{
 
 .main h3{
     font-size: 70px;
-}
-
-@media screen and (min-width: 768px){
-    .jumbotron .h1, .jumbotron h1 {
-    font-size: 110px;
-    }
 }
 
 .jumbotron p {
@@ -131,7 +127,7 @@ font-family: 'Josefin Slab', serif;
     font-size: 15px;
 }
 
-.contact-section .container{
+.container.info{
     background:rgba(170, 159, 177, 0.40);
     width: 100%;
 }
@@ -261,4 +257,34 @@ h5 {
 }
 .video-container video.fillWidth {
     width: 100%;
+}
+
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+    .jumbotron{
+        width:100%;
+    }
+}
+ 
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+    .jumbotron {
+        width:100%;
+        float:left;
+    }
+}
+ 
+/* Landscape phones and down */
+@media (max-width: 480px) {
+    .jumbotron {
+        width:100%;
+        float:none;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .jumbotron .h1, .jumbotron h1 {
+    font-size: 110px;
+    }
 }
