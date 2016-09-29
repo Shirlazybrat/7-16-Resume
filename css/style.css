@@ -124,7 +124,7 @@ font-family: 'Josefin Slab', serif;
 }
 
 .projects-section .label{
-    font-size: 15px;
+    font-size: 20px;
 }
 
 .container.info{
@@ -273,6 +273,16 @@ h5 {
         width:100%;
         float:left;
     }
+    .btn {
+        font-size: 40px;
+    }
+    .projects-section .label{
+    font-size: 20px;
+    }
+    footer {
+        font-size: 40px;
+        text-align: center;
+    }
 }
  
 /* Landscape phones and down */
@@ -281,10 +291,30 @@ h5 {
         width:100%;
         float:none;
     }
+    .btn {
+        font-size: 40px;
+    }
+    .projects-section .label{
+    font-size: 30px;
+    }
+    footer {
+        font-size: 40px;
+        text-align: center;
+    }
 }
 
 @media screen and (min-width: 768px){
     .jumbotron .h1, .jumbotron h1 {
     font-size: 110px;
+    }
+    .btn {
+        font-size: 40px;
+    }
+    .projects-section .label{
+    font-size: 20px;
+    }
+    footer {
+        font-size: 40px;
+        text-align: center;
     }
 }
