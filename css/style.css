@@ -108,6 +108,10 @@ img{
     transform: rotate(9deg);
 }
 
+.about-section .bios{
+    margin: 10px;
+}
+
 .about-section h3 {
 font-family: 'Josefin Slab', serif;
 }
@@ -274,7 +278,7 @@ h5 {
         float:left;
     }
     .btn {
-        font-size: 40px;
+        font-size: 25px;
     }
     .projects-section .label{
     font-size: 20px;
@@ -292,7 +296,7 @@ h5 {
         float:none;
     }
     .btn {
-        font-size: 40px;
+        font-size: 25px;
     }
     .projects-section .label{
     font-size: 30px;
@@ -308,7 +312,7 @@ h5 {
     font-size: 110px;
     }
     .btn {
-        font-size: 40px;
+        font-size: 25px;
     }
     .projects-section .label{
     font-size: 20px;
